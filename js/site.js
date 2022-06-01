@@ -51,5 +51,4 @@ image_input4.addEventListener("change", function(){
     document.querySelector("#photo4").src = uploaded_image4;
   })
   reader.readAsDataURL(this.files[0]);
-
-  //rating
+})
